@@ -7,12 +7,10 @@ function Navigation() {
   const [scrolled, setScrolled] = useState(false);
 
   const navItems = [
-    { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Education', href: '#education' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Contact', href: '#contact' },
     { name: 'References', href: '#references' },
   ];
 
